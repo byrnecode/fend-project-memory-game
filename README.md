@@ -1,20 +1,23 @@
 # Memory Game Project
 
-## Table of Contents
+## Description
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+This is a browser-based card matching game (_also known as Concentration_).
 
-## Instructions
+## How to play
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+The gameplay rules are very simple: flip over two hidden cards at a time to locate the ones that match.
 
-To get started, open `js/app.js` and start building out the app's functionality
+Each turn:
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+- The player flips one card over to reveal its underlying symbol.
+- The player then turns over a second card, trying to find the corresponding card with the same symbol.
+- If the cards match, both cards stay flipped over.
+- If the cards do not match, both cards are flipped face down.
 
-## Contributing
+The game ends once all cards have been correctly matched.
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+## Plugins used
 
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+- [jQuery](https://jquery.com/)
+- [SweetAlert](https://sweetalert.js.org/)
